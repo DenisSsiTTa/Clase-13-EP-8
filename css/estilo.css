@@ -2,12 +2,24 @@
 body{
 	margin: 0px auto;
 	padding-top: 10px;
-	font-family: helvetica, times, arial;
-	color: #666666;
+	/*font-family: helvetica, times, arial;
+	color: #666666;*/
 } 
 
-.logo, .icono{
+.logo{
 	max-width: 70%;
+}
+
+.iconos li {
+	display: inline-block;
+}
+
+.iconos li img {
+	width: 50px;
+}
+
+.carousel-inner {
+	height: 400px;
 }
 
 .espacioSeccion{
@@ -17,6 +29,7 @@ body{
 
 .espacioTopP{
 	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 .espacioBotton{
@@ -28,13 +41,18 @@ body{
 	padding: 10px;
 }
 
-.jumbotron{
-	margin-top: 50px;
-	margin-bottom: 30px;
-}
 
 .colorBlog {
 	color: #0e71b5;
+}
+
+.colorBotton {
+	background-color: #0e71b5;
+	color: #feec00;
+}
+
+.parrafo {
+	font-size: small;
 }
 
 /*  width="460px" height="345px" */
