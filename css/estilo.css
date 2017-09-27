@@ -1,0 +1,20 @@
+
+
+
+.facebook {
+	background: url('img/rrss.jpg') no-repeat 5.054% 5.054%;
+	max-width: 192px;
+	max-height: 192px;
+}
+
+.youtube {
+	background: url('img/rrss.jpg') no-repeat 49.819% 5.054%;
+	max-width: 192px;
+	max-height: 192px;
+}
+
+.twitter {
+	background: url('img/rrss.jpg') no-repeat 72.202% 49.819%;
+	max-width: 192px;
+	max-height: 192px;
+}
