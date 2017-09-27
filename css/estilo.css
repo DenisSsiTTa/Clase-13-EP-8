@@ -1,20 +1,46 @@
 
+body{
+	margin: 0px auto;
+	padding-top: 10px;
+	font-family: helvetica, times, arial;
+	color: #666666;
+} 
 
-
-.facebook {
-	background: url('img/rrss.jpg') no-repeat 5.054% 5.054%;
-	max-width: 192px;
-	max-height: 192px;
+.logo, .icono{
+	max-width: 70%;
 }
 
-.youtube {
-	background: url('img/rrss.jpg') no-repeat 49.819% 5.054%;
-	max-width: 192px;
-	max-height: 192px;
+.espacioSeccion{
+	margin-top: 20px;
+	padding-top: 60px;
 }
 
-.twitter {
-	background: url('img/rrss.jpg') no-repeat 72.202% 49.819%;
-	max-width: 192px;
-	max-height: 192px;
+.espacioTopP{
+	padding-top: 20px;
+}
+
+.espacioBotton{
+	padding-bottom: 30px;
+}
+
+.descripcion{
+	text-align: justify;
+	padding: 10px;
+}
+
+.jumbotron{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.colorBlog {
+	color: #0e71b5;
+}
+
+/*  width="460px" height="345px" */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 40%;
+    margin: auto;
+    height: 345px;
 }
